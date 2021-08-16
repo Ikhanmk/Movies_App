@@ -1,16 +1,12 @@
-import React from 'react'
+import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './common/header/Header';
 import './index.css';
-
+import Home from "./screens/home/Home";
 
 ReactDOM.render(
-  <>
   <React.StrictMode>
-    <Header/>
-  </React.StrictMode>
-  </>,
+    <Home/>
+  </React.StrictMode>,
   document.getElementById('root')
 );
-
 
